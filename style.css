@@ -1,0 +1,92 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 20px;
+  padding: 0px 10px;
+  max-width: 800px;
+}
+
+.cf div  {float:left;}
+.cf img {float:right;}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+h1{
+  color: #40E122;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size:35px;
+}
+
+h2{
+  color: #000000;
+  font-family: font-family: "Arial", Helvetica, sans-serif;
+  font-size:30px;
+}
+
+h3{
+  color: #18335C;
+  font-family: "Lucida Console", Courier, monospace;
+  font-style: italic;
+  font-size:20px;
+}
+
+.bordered{
+  margin-top: 15px;
+  border: 2px solid orange;
+}
+
+table {
+  margin-top: 15px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color:black;
+  color:white;
+}
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
